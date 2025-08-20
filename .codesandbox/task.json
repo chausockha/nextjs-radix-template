@@ -1,0 +1,15 @@
+{
+    "setupTasks": [
+        "yarn"
+    ],
+    "tasks": {
+        "dev": {
+            "name": "Dev Server",
+            "command": "yarn dev",
+            "preview": {
+                "port": 3000
+            },
+            "runAtStart": true
+        }
+    }
+}
