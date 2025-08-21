@@ -2,8 +2,11 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'SummitCloud',
-  description: 'Elevate Your Enterprise with SummitCloud',
+  title: 'Gen site',
+  description: 'Gen site',
+  icons: {
+    icon: "./logo.png"
+  }
 };
 
 export default function RootLayout({
