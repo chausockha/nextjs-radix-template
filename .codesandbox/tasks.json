@@ -1,11 +1,9 @@
 {
-    "setupTasks": [
-        "yarn"
-    ],
+    "setupTasks": ["bun install"],
     "tasks": {
         "dev": {
             "name": "Dev Server",
-            "command": "yarn dev",
+            "command": "bun run dev",
             "preview": {
                 "port": 3000
             },
