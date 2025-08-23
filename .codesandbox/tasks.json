@@ -1,18 +1,13 @@
 {
-    // 1. Chạy lệnh này đầu tiên để cài đặt các gói cần thiết
-    "setupTasks": ["yarn"],
+    "setupTasks": ["bun install"],
     "tasks": {
-        // 2. Sau khi setup xong, định nghĩa một tác vụ tên là "dev"
         "dev": {
             "name": "Dev Server",
-            // Lệnh để chạy server
-            "command": "yarn dev",
-            // Tự động chạy tác vụ này khi sandbox khởi động
-            "runAtStart": true,
-            // Mở cửa sổ xem trước cho port 3000
+            "command": "bun run dev",
             "preview": {
                 "port": 3000
-            }
+            },
+            "runAtStart": true
         }
     }
 }
